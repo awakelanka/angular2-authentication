@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+.wrapper
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(to bottom left, 
+				rgba(236, 0, 140, 0.6) 10%, 
+				rgba(252, 103, 103,0.9) 65%);
+				
+
+    min-height: 100vh;
+    overflow:hidden;
+}
+
+input:focus,button:focus
+{
+	outline: 0;
+}
+
+.error-msg
+{
+	font-size: 12px;
+	color: rgb(252,103,103);
+	margin-top: -3em;
+	position: absolute;
+}

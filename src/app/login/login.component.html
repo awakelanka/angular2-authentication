@@ -1,0 +1,20 @@
+<div class="wrapper">
+    <div class="form-wrapper">
+      <div class="error-msg" *ngIf="errorMsg">
+            {{errorMsg}}
+      </div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" id="email" [(ngModel)]="user.email" type="email"  >
+        <label class="mdl-textfield__label" for="email">Email</label>
+      </div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" id="password" [(ngModel)]="user.password" type="password"  >
+        <label class="mdl-textfield__label" for="password">Password</label>
+      </div>
+      <div>
+        <button (click)="login()" type="submit" class="login mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+          Login
+        </button>
+      </div>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+.wrapper .form-wrapper
+{
+	background-color: #fff;
+	box-shadow: 0 0 1px #ddd;
+	padding: 100px;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.wrapper .form-wrapper button.login
+{
+	width: 100%;
+	margin-top: 1em;
+	height: 46px;
+}
